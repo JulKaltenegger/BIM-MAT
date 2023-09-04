@@ -1,0 +1,28 @@
+#info-window {
+    min-width: 600px;
+    /* height: 400px; */
+}
+
+#info-window h3 {
+    margin-right: 10px;
+}
+
+#info-window #heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    /* margin-bottom: 5px; */
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+#info-window #content {
+    padding: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#info-window #heading .btn-link {
+    color: var(--text-header);
+}

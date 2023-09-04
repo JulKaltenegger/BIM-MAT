@@ -1,0 +1,24 @@
+#pickec-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#value {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#value .input-group {
+    justify-content: flex-end;
+}
+
+#tags {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

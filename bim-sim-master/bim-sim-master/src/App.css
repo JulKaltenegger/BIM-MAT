@@ -1,0 +1,37 @@
+.App {
+    color: var(--text);
+    background-color: var(--bg);
+
+    height: 100%;
+}
+
+#app-header span {
+    padding-left: 0.5em;
+    width: 2em;
+}
+
+#app-header {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    z-index: 4;
+
+    color: var(--text-header);
+    background-color: var(--bg-header);
+
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    bottom: 0;
+}

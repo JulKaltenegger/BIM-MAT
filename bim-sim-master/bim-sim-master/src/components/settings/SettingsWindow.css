@@ -1,0 +1,21 @@
+#settings-window {
+    width: 800px;
+    /* height: 400px; */
+}
+
+#settings-window h3 {
+    margin-right: 10px;
+}
+
+#settings-window #heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    /* margin-bottom: 5px; */
+
+    display: flex;
+}
+
+#settings-window #content {
+    padding: 20px;
+    margin-bottom: 5px;
+}

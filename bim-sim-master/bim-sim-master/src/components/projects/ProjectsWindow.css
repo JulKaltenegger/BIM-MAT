@@ -1,0 +1,108 @@
+#projects-window {
+    padding: 20px;
+    max-height: calc(100vh - 60px);
+    overflow: auto;
+    display: flex;
+}
+
+#projects-window h3 button {
+    margin-left: 10px;
+}
+
+#projects-window #user {
+    margin-bottom: auto;
+}
+
+.user {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(158, 167, 177);
+
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 10px;
+}
+
+#user-actions {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+}
+
+#user {
+    width: 250px;
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+#user-stat {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#user-stat-projects {
+    display: flex;
+}
+
+#user-stat-projects div {
+    display: flex;
+    align-items: center;
+}
+
+#user-stat-projects span {
+    margin-right: 5px;
+}
+
+#user-stat span:last-child {
+    margin-left: auto;
+}
+
+#user #name {
+    margin-left: 10px;
+}
+
+#user span:last-child {
+    margin-left: auto;
+}
+
+#user img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#project-list ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#project-list li {
+    height: 60px;
+}
+
+#project-list li a {
+    text-decoration: none;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+    /* column-gap: 5px; */
+    gap: 15px;
+}
+
+.project-artifacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

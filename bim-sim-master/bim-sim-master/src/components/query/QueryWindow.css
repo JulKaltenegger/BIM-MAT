@@ -1,0 +1,95 @@
+@import 'codemirror/theme/material.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+#query-window {
+}
+
+#query-window h3 {
+    margin-right: 10px;
+}
+
+#query-window #heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+
+    display: flex;
+}
+
+#yasgui-view {
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Source Code Pro', monospace;
+    /* Magic numbers !!! */
+    /* max-width: calc(100vw - 60px);
+    max-height: calc(100vh - 147px); */
+    background-color: var(--dark-blue);
+}
+
+#yasqe-view {
+    flex: 1;
+    min-width: 50%;
+}
+
+#yasr-view {
+    color: black;
+    font-size: 0.75em;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: var(--text-header);
+    /* flex: 1; */
+    overflow: auto;
+}
+
+.yasr > * {
+    background-color: var(--text-header);
+}
+
+.yasr {
+    height: 600px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.dataTable tr > * {
+    background-color: var(--text-header);
+}
+
+.dataTable tr > * {
+    padding: 0% !important;
+}
+
+.dataTable a {
+    color: black;
+}
+
+.dataTable > * {
+    padding: 0% !important;
+}
+
+.CodeMirror-hints {
+    border-style: none;
+}
+
+.yasqe .CodeMirror {
+    border: none;
+    font-family: monospace;
+    font-size: 1.2em;
+    border-style: none;
+    /* background: none; */
+}
+
+.yasr .CodeMirror {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
+    border-style: none;
+}
+
+.yasgui .autocompleteWrapper {
+    display: none !important;
+}
+
+table.dataTable {
+    color: black;
+}

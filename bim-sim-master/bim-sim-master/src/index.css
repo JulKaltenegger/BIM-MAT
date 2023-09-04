@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --charcoal0: #b5bec1;
+    --charcoal1: #9ca8ad;
+    --charcoal2: #839398;
+    --charcoal3: #6a7d84;
+    --charcoal4: #52676f;
+    --charcoal5: #39525b;
+    --charcoal6: #203c46;
+    --persian-green: #2a9d8f;
+    --orange-yellow-crayola: #e9c46a;
+    --sandy-brown: #f4a261;
+    --burnt-sienna: #e76f51;
+    --bdazzled-blue: #3d5a80ff;
+    --pale-cerulean: #98c1d9ff;
+    --light-cyan: #e0fbfcff;
+    --burnt-sienna: #ee6c4dff;
+    --gunmetal: #293241ff;
+
+    font-size: 16px;
+}
+
+.light {
+    --bg: var(--charcoal0);
+    --bg-header: var(--bdazzled-blue);
+    --text: var(--light-cyan);
+    --text-header: var(--light-cyan);
+    --bg-activity: var(--light-cyan);
+    --text-activity: var(--bdazzled-blue);
+    --text-a-hover: var(--orange-yellow-crayola);
+    --border: var(--pale-cerulean);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    font-size: 1rem;
+    color: var(--text);
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text-a-hover);
+    transition: color 0.2s ease-in-out;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, 'Courier New', monospace;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}

@@ -1,0 +1,18 @@
+#console {
+    font-size: 1.6em;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #454c5273;
+    border-top-left-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#selected_id {
+    /* color: #00ff00; */
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
